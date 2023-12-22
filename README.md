@@ -4,9 +4,9 @@ Neles há um slide com os filmes que estão em cartaz e abaixo os filmes mais be
 Para conseguir obter essas informações, utilizei a API da TMDB (https://developer.themoviedb.org/docs).
 ------------------------------------------------------------------------------------------------------------
 # Tecnologias Utilizadas
-Vite 
-React.js
-Typescript
+Vite |
+React.js |
+Typescript |
 ---------------------
 # Para Design 
 Tailwind CSS
