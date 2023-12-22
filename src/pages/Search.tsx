@@ -23,7 +23,7 @@ useEffect(()=>{axios.get(`${searchURL}?${apikey}&query=${query}`).then((res)=>{
 
   return (
     <div className='flex flex-col  gap-10 items-center py-20 bg-gray-800'>
-     {movie.length===0?<h2 className='text-3xl flex items-centerg gap-3 phone:gap-1 tablet:gap-1 text-yellow-400 uppercase font-bold phone:text-xl tablet:text-2xl'><h2 className='text-white'>Não foi encontrado resultados para </h2>{query}</h2>:<h2 className='text-3xl flex items-centerg gap-3 phone:gap-1 tablet:gap-1 phone:text-xl tablet:text-2xl text-yellow-400 uppercase font-bold'><h2 className='text-white'>Resultados encontrados para </h2>{query}</h2>} 
+     {movie.length===0?<h2 className='text-3xl flex items-centerg gap-3 phone:gap-1 tablet:gap-1 text-yellow-400 uppercase font-bold phone:text-xl tablet:text-2xl'><h2 className='text-white'>No results for </h2>{query}</h2>:<h2 className='text-3xl flex items-centerg gap-3 phone:gap-1 tablet:gap-1 phone:text-xl tablet:text-2xl text-yellow-400 uppercase font-bold'><h2 className='text-white'>Results for </h2>{query}</h2>} 
       <div className='flex  gap-20 flex-wrap justify-center '>
       {movie.map((movie,key)=>(
         <div key={key}>{<CardMovie movie={movie} showlink={true}/> }  </div>
