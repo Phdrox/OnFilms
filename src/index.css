@@ -4,7 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Inter:wght@700&family=Josefin+Sans&family=Libre+Baskerville&family=Quicksand&family=Raleway&display=swap');
 
 :root{
-  background-color: black;
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
   padding: 0;
   margin: 0;
   text-decoration: none;
