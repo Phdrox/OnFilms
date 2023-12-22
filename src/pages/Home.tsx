@@ -72,7 +72,7 @@ function Home() {
       <h1 className=" flex justify-center item-center gap-2 text-3xl mt-10 border-y-2 p-2 border-yellow-400 w-full uppercase font-bold "><FaStar className='text-yellow-400'/>Top Rating</h1>
       <div className="w-full bg-gray-800 flex flex-wrap py-16 gap-16 phone:gap-3  items-center justify-center ">
         {topmovies.length===0 && <Loader />}
-     {topmovies.length>0 && topmovies.map((movie:any,key)=>(<CardMovie movie={movie} showlink={true}/>))}
+     {topmovies.length>0 && topmovies.map((movie:any)=>(<CardMovie movie={movie} showlink={true}/>))}
       </div>
       
     </div>
