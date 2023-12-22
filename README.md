@@ -1,5 +1,5 @@
 # Projeto OnFilms 
-Ele tem como objetivo te ajudar a procurar seus filmes favoritos e trazer alguns detalhes.
+Ele tem como objetivo,auxíliar você a procurar seus filmes favoritos e trazer alguns detalhes.
 Neles há um slide com os filmes que estão em cartaz e abaixo os filmes mais bem avaliados.
 Para conseguir obter essas informações, utilizei a API da TMDB (https://developer.themoviedb.org/docs).
 ------------------------------------------------------------------------------------------------------------
